@@ -18,7 +18,6 @@ const SpinWheelGame = () => {
   const values = [252, 216, 180, 144, 108, 72, 36, 0, 324, 288];
   const [result, setResult] = useState(null);
   const [resultShow, setResultShow] = useState("");
-  // console.log("isSpinning===x==>",isSpinning,resultShow!=='',result)
 
   useEffect(() => {
     if (result) {
