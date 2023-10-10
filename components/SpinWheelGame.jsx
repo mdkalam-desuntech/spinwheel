@@ -341,7 +341,7 @@ const SpinWheelGame = () => {
       <TouchableOpacity
         style={styles.spin}
         onPress={spinWheel}
-        disabled={isSpinning}
+        disabled={( !isSpinning&&result!=null)}
       >
         <Text style={styles.spinText}>SPIN</Text>
       </TouchableOpacity>
